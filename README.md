@@ -7,3 +7,5 @@
 
 - **Every file will carry the name of the source.**
 
+## **License**
+This project is licensed under the terms of the MIT license.
