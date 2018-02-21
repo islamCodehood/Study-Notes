@@ -1,7 +1,7 @@
 # Study-Notes
 ##**Books, courses, articles, and tutorials study notes.**
 
--###**This repo will contain different text files for different source's study notes.**
+-This repo will contain different text files for different source's study notes.
 
 -###**Every file represents a book, course, article, or tutorial.**
 
