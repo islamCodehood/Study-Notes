@@ -79,3 +79,15 @@ height: 100vh;
        
    - **Browser can render vector images at any size.**
        
+## **General Rules:**
+
+1. Use JPEG for Photographs.
+2. Use  WebP for Photographs(better than JPEG) (supported by chrome).
+3. Use SVG for vector images, solid color graphics, logos, line art.
+4. Use PNG for the same as above if you can't use SVG.
+
+### Some useful links:
+- [Image Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization).
+
+- [About WebP](https://developers.google.com/speed/webp/?csw=1).
+
