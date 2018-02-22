@@ -50,3 +50,23 @@ height: 100vh;
 - **Take care of the aspect ratio in this case if you want to keep it.**
 
 - **It is better to view vmin and vmax with examples to understand.**
+
+## **Raster vs Vector**
+
+-###**Raster images:**
+     -**is a grid of individual dots of color.**
+     -**Source:**
+        - Camera.
+        - Scanner.
+        - HTML canvas.
+     - **Example:** photographs.
+  
+ -###**Vector images:**
+       -**is a set of curves, lines, shapes, fill colors, and gradients.**
+       -**Source:**
+          - Adobe Illustrator.
+          - Inkscape.
+          - Using a vector format such as SVG.
+       -**Examples:**Logos, Line art.
+       -**Browser can render vector images at any size.
+       
