@@ -14,3 +14,8 @@ A course by [Udacity](https://classroom.udacity.com/courses/ud882).
     Average Bytes Per Page Per Content Type. A diagram from <a href="http://httparchive.org">http://httparchive.org</a>.
   </figcaption>
 <figure>
+
+
+##**Bits & Pixels**
+
+####bits = pixels * bits per pixel (bpp)
