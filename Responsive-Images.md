@@ -1,10 +1,10 @@
-#**Responsive Images**
+# **Responsive Images**
 
 A course by [Udacity](https://classroom.udacity.com/courses/ud882).
 
 ----------------------------------------------------------------------------------------------
 
-##**Introduction**
+## **Introduction**
 
 - More than 60% of Bytes per page is images.
 
@@ -16,6 +16,6 @@ A course by [Udacity](https://classroom.udacity.com/courses/ud882).
 <figure>
 
 
-##**Bits & Pixels**
+## **Bits & Pixels**
 
-####bits = pixels * bits per pixel (bpp)
+#### bits = pixels * bits per pixel (bpp)
