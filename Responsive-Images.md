@@ -27,3 +27,8 @@ A course by [Udacity](https://classroom.udacity.com/courses/ud882).
 - **If you make `width : 100%;` It will resize as broswer resize but it will lead to pixelation of the image when it resizes to larger of its natural width.**
 - **But if you make `max-width: 100%` It will resize to a maximum width of its natural width only and will not pixelate.**
 - **If you want 2 images to fit side by side you can change to `max-width: 50%;`.**
+
+## **Quiz: calc()**
+
+- **Using Calc is very important when we want the size (width for example) to take the remaining area after a fixed area is taken (for a maring for example).**
+**_This is a [quiz](https://classroom.udacity.com/courses/ud882/lessons/3520939843/concepts/37391188270923)._**
