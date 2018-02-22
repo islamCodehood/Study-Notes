@@ -53,8 +53,7 @@ height: 100vh;
 
 ## **Raster vs Vector**
 
--###**Raster images:**
-
+-### **Raster images**
      -**is a grid of individual dots of color.**
      
      -**Source:**
@@ -65,8 +64,7 @@ height: 100vh;
         
      - **Example:** photographs.
   
- -###**Vector images:**
- 
+ -### **Vector images**
        -**is a set of curves, lines, shapes, fill colors, and gradients.**
        
        -**Source:**
