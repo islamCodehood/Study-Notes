@@ -50,3 +50,6 @@ You can still use HTML in markdown when you could not accomplish something using
 - You can also open it in your text editors using some plugin or extension.
 - For VS Code you can install [Markdown All In One extension](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one).
 
+
+
+_The End_
