@@ -55,26 +55,27 @@ height: 100vh;
 
 ### **Raster images**
 
-   -**is a grid of individual dots of color.**
+   - **is a grid of individual dots of color.**
      
-   -**Source:**
+   - **Source:**
      
       - Camera.
       - Scanner.
       - HTML canvas.
         
    - **Example:** photographs.
-  
- -### **Vector images**
+   
+   
+   
+### **Vector images**
  
-    -**is a set of curves, lines, shapes, fill colors, and gradients.**
+   - **is a set of curves, lines, shapes, fill colors, and gradients.**
        
-    -**Source:**
+   - **Source:**
+      - Adobe Illustrator.
+      - Inkscape.
+      - Using a vector format such as SVG.
+   - **Examples:**Logos, Line art.
        
-       - Adobe Illustrator.
-       - Inkscape.
-       - Using a vector format such as SVG.
-    -**Examples:**Logos, Line art.
-       
-    -**Browser can render vector images at any size.
+   - **Browser can render vector images at any size.
        
