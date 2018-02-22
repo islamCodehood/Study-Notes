@@ -38,4 +38,4 @@ _And that's why Documentations should be **clear, descriptive and easy to follow
 
  a light markup language often used for READMEs (though you'll find other use cases for it, too!). 
  
- Here is (Markdown documentaion)[https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/].
+ Here is [Markdown documentaion](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/).
