@@ -31,4 +31,22 @@ A course by [Udacity](https://classroom.udacity.com/courses/ud882).
 ## **Quiz: calc()**
 
 - **Using `Calc` is very important when we want the size (width for example) to take the remaining area after a fixed area is taken (for a maring for example).**
+
 **_This is a [quiz](https://classroom.udacity.com/courses/ud882/lessons/3520939843/concepts/37391188270923)._**
+
+## **vh vw vmin vmax CSS Units**
+
+- **vh: viewport height   vw: viewport width.  vmin: viewport minimum   vmax: viewport maximum.**
+
+- **You can set the height of an image to 100% but this only works if the html and body elements are set to 100%.**
+
+- **Alternatively, you can set **
+```
+width: 100vw;
+height: 100vh;
+```
+**
+
+- **Take care of the aspect ratio in this case if you want to keep it.**
+
+- **It is better to view vmin and vmax with examples to understand.**
