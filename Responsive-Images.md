@@ -19,3 +19,11 @@ A course by [Udacity](https://classroom.udacity.com/courses/ud882).
 ## **Bits & Pixels**
 
 #### bits = pixels * bits per pixel (bpp)
+
+
+## **Relative Sizing**
+
+- **Fixed image size in for example pixels would create Unresposive image that will not resize.**
+- **If you make `width : 100%;` It will resize as broswer resize but it will lead to pixelation of the image when it resizes to larger of its natural width.**
+- **But if you make `max-width: 100%` It will resize to a maximum width of its natural width only and will not pixelate.**
+- **If you want 2 images to fit side by side you can change to `max-width: 50%;`.**
