@@ -30,5 +30,5 @@ A course by [Udacity](https://classroom.udacity.com/courses/ud882).
 
 ## **Quiz: calc()**
 
-- **Using Calc is very important when we want the size (width for example) to take the remaining area after a fixed area is taken (for a maring for example).**
+- **Using `Calc` is very important when we want the size (width for example) to take the remaining area after a fixed area is taken (for a maring for example).**
 **_This is a [quiz](https://classroom.udacity.com/courses/ud882/lessons/3520939843/concepts/37391188270923)._**
