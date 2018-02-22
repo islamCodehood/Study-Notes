@@ -24,11 +24,11 @@ _And that's why Documentations should be **clear, descriptive and easy to follow
    
 2. **Information for undersanding your code/project.**
    This may include:
-   - _Installation instructions.
-   - Dependecies on other libraries, frameworks.
-   - Usage.
-   - Known bugs.
-   - Issues.
-   - Examples.
+   - _Installation instructions._
+   - _Dependecies on other libraries, frameworks._
+   - _Usage._
+   - _Known bugs._
+   - _Issues._
+   - _Examples._
    
 3. **License.**  
