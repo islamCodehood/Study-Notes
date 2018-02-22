@@ -75,7 +75,7 @@ height: 100vh;
       - Adobe Illustrator.
       - Inkscape.
       - Using a vector format such as SVG.
-   - **Examples:**Logos, Line art.
+   - **Examples:** Logos, Line art.
        
-   - **Browser can render vector images at any size.
+   - **Browser can render vector images at any size.**
        
