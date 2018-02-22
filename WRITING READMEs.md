@@ -17,3 +17,18 @@
 _And that's why Documentations should be **clear, descriptive and easy to follow**._
 
 
+## **Anatomy Of A README**
+
+1. a Title & a Description.
+   - a sentece or two may be enough but be sure to provide clear explanation.
+   
+2. Information for undersanding your code/project.
+   This may include:
+   - Installation instructions.
+   - Dependecies on other libraries, frameworks.
+   - Usage.
+   - Known bugs.
+   - Issues.
+   - Examples.
+   
+3. License.   
