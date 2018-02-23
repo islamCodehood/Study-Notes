@@ -92,3 +92,14 @@ height: 100vh;
 - [About WebP](https://developers.google.com/speed/webp/?csw=1).
 
 ####  **IMPORTANT :heavy_exclamation_mark: [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/)**
+
+
+## **Performance**
+
+### **Latency:** is the delay between request & response.
+
+-**The latency affects Page loading times more than bandwidth.
+
+- **So to increase performance you need to _compress  images_ and _decrease the no of requests_.**
+
+-**It is better to use text overlaying an image than to use a text as an image.**
