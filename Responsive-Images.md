@@ -98,8 +98,19 @@ height: 100vh;
 
 ### **Latency:** is the delay between request & response.
 
--**The latency affects Page loading times more than bandwidth.
+- **The latency affects Page loading times more than bandwidth.**
 
 - **So to increase performance you need to _compress  images_ and _decrease the no of requests_.**
 
 - **It is better to use text overlaying an image than to use a text as an image.**
+
+
+## **Background images**
+
+- **background-size: _cover_ or _contain_**
+- **Background images are responsive.**
+
+## **Symbol characters**
+
+- **You can write symbols instead of images by using unicode.**
+- **They are responsive.**
