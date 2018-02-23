@@ -102,4 +102,4 @@ height: 100vh;
 
 - **So to increase performance you need to _compress  images_ and _decrease the no of requests_.**
 
--**It is better to use text overlaying an image than to use a text as an image.**
+- **It is better to use text overlaying an image than to use a text as an image.**
