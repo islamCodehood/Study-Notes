@@ -113,4 +113,5 @@ height: 100vh;
 ## **Symbol characters**
 
 - **You can write symbols instead of images by using unicode.**
+- **They are more than 110000 characters.**
 - **They are responsive.**
