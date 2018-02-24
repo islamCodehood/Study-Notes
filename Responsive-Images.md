@@ -139,3 +139,14 @@ height: 100vh;
 - **Very low size.**
 
 - **Can be implemented using HTML, OR CSS.**
+
+
+## **Accessibility**
+
+- **Some advices for using alt attribute with img element:**
+
+    - `alt` attributes should be set on every image.
+    - `alt` attributes should be descriptive for important images.
+    - `alt` attributes should be empty for images that are just decorations.\
+    
+- **ChromeVox is a free screen reader.**    
