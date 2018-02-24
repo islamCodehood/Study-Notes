@@ -150,3 +150,8 @@ height: 100vh;
     - `alt` attributes should be empty for images that are just decorations.\
     
 - **ChromeVox is a free screen reader.**    
+
+
+**_The End_**
+
+Last advice:  The subject needs more and more reading and practice.
