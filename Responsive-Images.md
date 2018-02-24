@@ -115,3 +115,18 @@ height: 100vh;
 - **You can write symbols instead of images by using unicode.**
 - **They are more than 110000 characters.**
 - **They are responsive.**
+
+
+## **Icon Fonts**
+
+- **They are treated as text.**
+- **Scalable (responsive) as it is a vector without a decrease in quality with minimum downloads (less requests). Indeed only one request**
+
+- **You can style it easily using CSS like shadow, size, color, etc. And you also add it by CSS clases.**
+
+- **They are lots of them.**
+
+- **Examples: 
+
+    - **[Font Awesome](https://fontawesome.com/).**
+    - **[Zocial](http://zocial.smcllns.com/).**
