@@ -130,3 +130,12 @@ height: 100vh;
 
     - **[Font Awesome](https://fontawesome.com/).**
     - **[Zocial](http://zocial.smcllns.com/).**
+
+
+## **SVG & Data Uri**
+
+- **Maximum scalability.**
+
+- **Very low size.**
+
+- **Can be implemented using HTML, OR CSS.**
