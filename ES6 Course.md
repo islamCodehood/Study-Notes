@@ -11,7 +11,7 @@
 - **Rules for using let and const:**
     - Variables declared with **_let_**:
     
-                                         - [ ] **can be reassigned.**                    
+                                         - [ ] can be reassigned.                    
                                          - [ ] can't be redeclared in the same scope. 
     - Variables declared with **_const_**:
     
