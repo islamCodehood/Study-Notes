@@ -25,4 +25,4 @@
     
 **As a general rule _always_ declare your variables using `const` except if you plan to reassign new values to variable.**
 
-**It is a _GOOD PRACTICE_ to not using `var` any more.
+**It is a _GOOD PRACTICE_ to not using `var` any more.**
