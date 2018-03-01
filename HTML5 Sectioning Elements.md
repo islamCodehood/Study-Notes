@@ -23,3 +23,14 @@
 - **contain a piece of self-contained content that could be distributed outside the context of the page.**
 - **like news articles, blog posts, or user comments.**
 - **could be _Nested_ inside each other. And this means that the nested one relate to the outer one.**
+
+
+```
+<section>
+```
+
+- **contain a group of related content. **
+- **content doesn’t necessarily need to make sense out of the context of the page.(the main diff from `<article>`).**
+- **It’s advisable to use a heading element `<h1>` to `<h6>` to define the topic of the section.**
+- **If you just need to group content together for styling purposes you should use `<div>` instead.**
+
