@@ -4,7 +4,9 @@
 
 - gives more semantic meaning to your pages, allowing computer programs to better understand your content, enhance accessibility, and SEO friendly.
 
-```<main>```
+```
+<main>
+```
   
   - **contain the main content for your web page.**
   - **content should be unique to the individual page.**
