@@ -34,3 +34,13 @@
 - **It’s advisable to use a heading element `<h1>` to `<h6>` to define the topic of the section.**
 - **If you just need to group content together for styling purposes you should use `<div>` instead.**
 
+
+```
+<nav>
+```
+
+- **used to:** 
+    - **contain a collection of links to external pages or sections within the current page.**
+    - **table of contents.**
+    - **blogroll.**
+    - **It is better to mark up the links within list elment but this is not necessary with `<nav>`.**
