@@ -44,3 +44,12 @@
     - **table of contents.**
     - **blogroll.**
     - **It is better to mark up the links within list elment but this is not necessary with `<nav>`.**
+
+
+```
+<aside>
+```
+
+- **for content that is not directly related to the content surronding it and could be considered separate.
+- **like sidebars, `<nav>` elements.
+
