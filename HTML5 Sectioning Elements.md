@@ -124,3 +124,6 @@
   </footer>
 </article>
 ```
+
+
+Source: [How to Use The HTML5 Sectioning Elements](http://blog.teamtreehouse.com/use-html5-sectioning-elements).
