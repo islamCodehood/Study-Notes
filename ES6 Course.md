@@ -35,7 +35,7 @@
 
 ### Syntax:
 
-Single line string (with embeded expressions or _expression interpolation_)
+- Single line string (with embeded expressions or _expression interpolation_)
 ```
 const student = {
   name: 'Richard Kalehoff',
@@ -55,7 +55,7 @@ var b = 10;
 console.log(`Fifteen is ${a + b} and not ${2 * a + b}.`);
 // "Fifteen is 15 and not 20."
 ```
-multi-line string.
+- Multi-line string.
 
 instead of:
 ```
