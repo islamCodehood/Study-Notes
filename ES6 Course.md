@@ -26,3 +26,48 @@
 **As a general rule _always_ declare your variables using `const` except if you plan to reassign new values to variable.**
 
 **It is a _GOOD PRACTICE_ to not using `var` any more.**
+
+----------------------------------------------------------------------------------------
+
+## **Template Literals :**
+
+**string literals that include embedded expressions.**
+
+### Syntax:
+
+Single line string (with embeded expressions or _expression interpolation_)
+```
+const student = {
+  name: 'Richard Kalehoff',
+  guardian: 'Mr. Kalehoff'
+};
+
+const teacher = {
+  name: 'Mrs. Wilson',
+  room: 'N231'
+}
+
+let message = `${student.name} please see ${teacher.name} in ${teacher.room} to pick up your report card.`; //Richard Kalehoff please //see Mrs. Wilson in N231 to pick up your report card.
+```
+```
+var a = 5;
+var b = 10;
+console.log(`Fifteen is ${a + b} and not ${2 * a + b}.`);
+// "Fifteen is 15 and not 20."
+```
+multi-line string.
+
+instead of:
+```
+console.log('string text line 1\n' +
+'string text line 2');
+// "string text line 1
+// string text line 2"
+```
+you can write this:
+```
+console.log(`string text line 1
+string text line 2`);
+// "string text line 1
+// string text line 2"
+```
