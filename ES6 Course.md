@@ -17,7 +17,7 @@
     
                                          - [ ] must be assigned an initial value.
                                          - [ ] can't be reassigned.
-                                         - [ ] can't be declared in the same scope.
+                                         - [ ] can't be redeclared in the same scope.
 
 - **Use Cases (when to use what) :**
     - **_let_**  when you plan to `reassign` new values to a variable.
