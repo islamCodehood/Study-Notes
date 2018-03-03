@@ -71,3 +71,66 @@ string text line 2`);
 // "string text line 1
 // string text line 2"
 ```
+
+
+-----------------------------------------------------------------------------
+
+## **Destructuring**
+
+**Extract data from arrays and objects into different variables.**
+**allow you to specify the elements you want to extract from an array or object on the left side of an assignment.**
+
+### **Arrays**
+
+- **Instead of :**
+
+```
+const point = [10, 25, -34];
+
+const x = point[0];
+const y = point[1];
+const z = point[2];
+
+console.log(x, y, z); //10 25 -34
+```
+
+- **You can do this:**
+
+```
+const point = [10, 25, -34];
+const [x, y, z] = point;
+
+console.log(x, y, z); //10 25 -34
+```
+
+### **Objects**
+
+- **Instead of:**
+
+```
+const gemstone = {
+  type: 'quartz',
+  color: 'rose',
+  carat: 21.29
+};
+
+const type = gemstone.type;
+const color = gemstone.color;
+const carat = gemstone.carat;
+
+console.log(type, color, carat); ////quartz rose 21.29
+```
+
+- **You can do this:**
+
+```
+const gemstone = {
+  type: 'quartz',
+  color: 'rose',
+  carat: 21.29
+};
+const {type, color, carat} = gemstone;
+console.log(type, color, carat); //quartz rose 21.29
+```
+**achieve the same result as before, but with much _less code_; and it's still easy to _understand_.**
+
