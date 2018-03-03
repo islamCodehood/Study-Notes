@@ -5,6 +5,8 @@
 - **ES2015**
 - **Harmony**
 
+-----------------------------------------------------------------------------------------
+
 ## **let and const :**
 - **Variables declared with let and const eliminate this specific issue of hoisting because they’re scoped to the block, not to the function.**
 - **Variables declared with var are either scoped globally or locally the function scope.**
