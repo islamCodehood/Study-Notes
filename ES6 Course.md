@@ -182,8 +182,9 @@ console.log(gemstone);
 **Since _anonymous function_ is being assigned to a property.**
 
 - **Instead of that:**
-    
-    ```
+
+
+```
 let type = 'quartz';
 let color = 'rose';
 let carat = 21.29;
@@ -199,6 +200,7 @@ const gemstone = {
 ```
 
 - **You can write that:**
+
 
 ```
 let gemstone = {
