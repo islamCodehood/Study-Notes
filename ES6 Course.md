@@ -141,7 +141,7 @@ console.log(type, color, carat); //quartz rose 21.29
 
 ## **Object literal shorthand**
 
-- **initializing objects**
+### **initializing objects**
 
 If the properties names are the same like values names assigned to them, then ni=o need to re-write the same name as the value of property.
 
@@ -177,7 +177,7 @@ const gemstone = {
 console.log(gemstone);
 ```
 
-- **methods names shorthand**
+### **methods names shorthand**
 
 **Since _anonymous function_ is being assigned to a property.**
 
