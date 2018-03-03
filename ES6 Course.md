@@ -136,3 +136,78 @@ console.log(type, color, carat); //quartz rose 21.29
 ```
 **achieve the same result as before, but with much _less code_; and it's still easy to _understand_.**
 
+
+--------------------------------
+
+## **Object literal shorthand**
+
+- **initializing objects**
+
+If the properties names are the same like values names assigned to them, then ni=o need to re-write the same name as the value of property.
+
+   - **Instead of that:**
+   
+   ```
+let type = 'quartz';
+let color = 'rose';
+let carat = 21.29;
+
+const gemstone = {
+  type: type,
+  color: color,
+  carat: carat
+};
+
+console.log(gemstone);
+```
+
+   - **You can write that:**
+   
+   ```
+let type = 'quartz';
+let color = 'rose';
+let carat = 21.29;
+
+const gemstone = {
+  type,
+  color,
+  carat
+};
+
+console.log(gemstone);
+```
+
+- **methods names shorthand**
+
+**Since _anonymous function_ is being assigned to a property.**
+
+    - **Instead of that:**
+    
+    ```
+let type = 'quartz';
+let color = 'rose';
+let carat = 21.29;
+
+const gemstone = {
+  type,
+  color,
+  carat,
+  calculateWorth: function() {
+    //code here
+  }
+};
+```
+
+   - **You can write that:**
+
+```
+let gemstone = {
+  type,
+  color,
+  carat,
+  calculateWorth() { //code here }
+};
+```
+
+    
+
