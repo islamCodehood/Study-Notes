@@ -1,7 +1,7 @@
 # **Bootstrap**
 --------------------------------------------------------
 
-:point_right: ## **div classes**
+## :point_right: **div classes**
 
 1. `container-fluid`
 
