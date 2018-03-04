@@ -36,7 +36,7 @@
 3. `btn-primary`
 4. `btn-info`
 5. `btn-danger`
-
+6. `btn-default`
 ---------------------------------------------------
 ## :point_right: **input type: text**
 
