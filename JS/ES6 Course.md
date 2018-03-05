@@ -347,14 +347,15 @@ console.log(...primes);\\ 2 3 5 7 11 13 17 19 23 29
 - Example: 
   - instead of using ```concat()``` an Array's method
   
-  ```
-  const fruits = ["apples", "bananas", "pears"];
+```
+const fruits = ["apples", "bananas", "pears"];
 const vegetables = ["corn", "potatoes", "carrots"];
 const produce = fruits.concat(vegetables);
 console.log(produce);
 ```
 
- - You can use spread operator
+  - You can use spread operator
+ 
  
  ```
  const fruits = ["apples", "bananas", "pears"];
