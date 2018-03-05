@@ -342,7 +342,7 @@ const primes = new Set([2, 3, 5, 7, 11, 13, 17, 19, 23, 29]);
 console.log(...primes);\\ 2 3 5 7 11 13 17 19 23 29
 ```
 
-- **One of its udes is to concatenate 2 or more iterable objects.**
+- **One of its uses is to concatenate 2 or more iterable objects.**
 
 - Example: 
   - instead of using ```concat()``` an Array's method
@@ -364,6 +364,70 @@ const vegetables = ["corn", "potatoes", "carrots"];
 const produce = [...fruits, ...vegetables];
 
 console.log(produce);
+```
+
+
+-------------------------------------------------------
+
+## :point_right: **Rest Parameter**
+
+   - **represent an indefinite number of elements as an array.**
+   - **Uses:** 
+   
+1. **Assign certain values of an array to another array.**
+     
+```
+const order = [20.17, 18.67, 1.50, "cheese", "eggs", "milk", "bread"];
+const [total, subtotal, tax, ...items] = order;
+console.log(total, subtotal, tax, items);// 20.17 18.67 1.5 ["cheese", "eggs", "milk", "bread"]
+```
+2. **In Variadic Functions**
+
+- **Variadic functions: functions that take an indefinite number of arguments.**
+- You can use argument object for that but it is misleading anf confusing.
+- Instead use Rest parameter.
+
+```
+\\Using argument object
+function sum() {
+  let total = 0;  
+  for(const argument of arguments) {
+    total += argument;
+  }
+  return total;
+}
+```
+
+```
+//Using rest parameter
+function sum(...nums) {
+  let total = 0;  
+  for(const num of nums) {
+    total += num;
+  }
+  return total;
+}
+```
+
+:musical_note: _argument object_: Array-like object corresponding to the arguments passed to a function. 
+                                  available as a local variable inside all functions.
+                                  contains a value for each argument being passed to the function starting at 0 for the first argument,                                 1 for the second argument, and so on.
+                                  
+Example:
+
+```
+function func1(a, b, c) {
+  console.log(arguments[0]);
+  // expected output: 2
+
+  console.log(arguments[1]);
+  // expected output: 5
+
+  console.log(arguments[2]);
+  // expected output: 0
+}
+
+func1(2, 5, 0);
 ```
 
 
