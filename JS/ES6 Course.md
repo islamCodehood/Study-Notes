@@ -271,3 +271,62 @@ function() {
  }
 }
 ```
+
+### **for of loop**
+
+   - _**Adv**_:
+         Eliminates **Counter** , and **Exit Condition**.
+         _Don't_ use **index** but it loops over each value without use of index.
+         _only_ loop over the **values** in the object. So you don't worry about any new properties like in for in loop.
+         Can be **stopped** at any time.
+         
+```
+const digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (const digit of digits) {
+  if (digit % 2 === 0) {
+    continue;
+  }
+  console.log(digit);
+}
+```
+
+```
+prints:
+1
+3
+5
+7
+9
+```
+
+```
+Array.prototype.decimalfy = function() {
+  for (i = 0; i < this.length; i++) {
+    this[i] = this[i].toFixed(2);
+  }
+};
+
+const digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (const digit of digits) {
+  console.log(digit);
+}
+```
+
+```
+Prints:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+         
+   
+         
