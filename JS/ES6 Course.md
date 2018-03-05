@@ -211,5 +211,18 @@ let gemstone = {
 };
 ```
 
-    
 
+--------------------------------------------------------------------
+
+## **for Loops**
+
+- **for loop**
+- **for in loop**
+- **for of loop**
+
+### **for loop**
+
+**- _Weakness_:**
+    - Having to keep track of:
+      - the counter
+      - exit condition
