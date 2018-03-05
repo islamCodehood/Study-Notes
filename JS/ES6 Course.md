@@ -331,5 +331,39 @@ Prints:
 
 ```for (const button of buttons) {...}```
 
-   
-         
+----------------------------------------------------------------------------
+
+## :point_right: **Spread Operator**        
+
+- **expand, or spread, iterable objects into multiple elements.**
+
+```
+const primes = new Set([2, 3, 5, 7, 11, 13, 17, 19, 23, 29]);
+console.log(...primes);\\ 2 3 5 7 11 13 17 19 23 29
+```
+
+- **One of its udes is to concatenate 2 or more iterable objects.**
+
+- Example: 
+  - instead of using ```concat()``` an Array's method
+  
+  ```
+  const fruits = ["apples", "bananas", "pears"];
+const vegetables = ["corn", "potatoes", "carrots"];
+const produce = fruits.concat(vegetables);
+console.log(produce);
+```
+
+ - You can use spread operator
+ 
+ ```
+ const fruits = ["apples", "bananas", "pears"];
+const vegetables = ["corn", "potatoes", "carrots"];
+
+const produce = [...fruits, ...vegetables];
+
+console.log(produce);
+```
+
+
+
