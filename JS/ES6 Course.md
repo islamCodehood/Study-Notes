@@ -214,7 +214,7 @@ let gemstone = {
 
 --------------------------------------------------------------------
 
-## **for Loops**
+## :point_right: **for Loops**
 
 - **for loop**
 - **for in loop**
@@ -224,5 +224,6 @@ let gemstone = {
 
 **- _Weakness_:**
     - Having to keep track of:
+    
       - the counter
       - exit condition
