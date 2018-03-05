@@ -384,8 +384,8 @@ console.log(total, subtotal, tax, items);// 20.17 18.67 1.5 ["cheese", "eggs", "
 2. **In Variadic Functions**
 
 - **Variadic functions: functions that take an indefinite number of arguments.**
-- You can use argument object for that but it is misleading anf confusing.
-- Instead use Rest parameter.
+- **You can use argument object for that but it is misleading anf confusing.**
+- **Instead use Rest parameter.**
 
 ```
 \\Using argument object
@@ -409,9 +409,9 @@ function sum(...nums) {
 }
 ```
 
-:musical_note: _argument object_: Array-like object corresponding to the arguments passed to a function. 
-                                  available as a local variable inside all functions.
-                                  contains a value for each argument being passed to the function starting at 0 for the first argument,                                 1 for the second argument, and so on.
+:musical_note: **_argument object_**: Array-like object corresponding to the arguments passed to a function. 
+                                   available as a local variable inside all functions.
+                                   contains a value for each argument being passed to the function starting at 0 for the first argument,                                 1 for the second argument, and so on.
                                   
 Example:
 
