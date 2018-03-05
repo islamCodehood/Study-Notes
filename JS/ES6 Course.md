@@ -354,7 +354,7 @@ const produce = fruits.concat(vegetables);
 console.log(produce);
 ```
 
-  - You can use spread operator
+   - You can use spread operator
  
  
  ```
