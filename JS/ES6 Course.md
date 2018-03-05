@@ -222,8 +222,9 @@ let gemstone = {
 
 ### **for loop**
 
-**- _Weakness_:**
+** _Weakness_:**
     - Having to keep track of:
     
-      - the counter
-      - exit condition
+     the counter
+     
+     exit condition
