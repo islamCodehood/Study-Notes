@@ -328,6 +328,7 @@ Prints:
 9
 ```
 :musical_note: **A good practice:** **_plural names_ for objects conatin values** and **_singular names_ for referencing individual values.**
+
 ```for (const button of buttons) {...}```
 
    
