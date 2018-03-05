@@ -254,7 +254,6 @@ for (const index in digits) {
 }
 ```
 ```
-/*prints:
 Prints:
 0
 1
@@ -270,5 +269,5 @@ function() {
  for (let i = 0; i < this.length; i++) {
   this[i] = this[i].toFixed(2);
  }
-}*/
+}
 ```
