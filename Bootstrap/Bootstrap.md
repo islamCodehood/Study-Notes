@@ -48,3 +48,4 @@
 ## :point_right: **input type: text**
 
 1. `form-control`
+`
