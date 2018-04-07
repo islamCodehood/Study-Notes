@@ -4,6 +4,7 @@
   - [Definition](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#definition).
   - [Example 1](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#example-1).
   - [Example 2](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#example-2).
+  - [Example 3](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#example-3).
 
 
 
@@ -59,3 +60,26 @@ If you wrote `add;` in console it will return the returned anonymous function.
 add;//ƒ () {return counter += 1;}
 ```
 
+
+### Example 3
+
+```
+function invokeTwice(callback) {
+   callback();
+   callback();
+}
+
+const dog = {
+  age: 5,
+  growOneYear: function () {
+    this.age += 1;
+  }
+};
+```
+Invoking the function `invokeTwice(dog.growOneYear);//undefined` will not increment age property of the dog object. This is because _this_ inside a regular function is scoped to the global object `window` when the function is invoked.
+A solution to that is using a closure function to have a refernce to age property inside the dog object and then the method can increment its value.
+```
+invokeTwice(function() {
+dog.growOneYear()});
+dog.age;//7
+```
