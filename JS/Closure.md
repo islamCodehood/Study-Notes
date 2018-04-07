@@ -2,7 +2,7 @@
 
 ### Table of Contents:
   - [Definition](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#definition).
-  - [Examples](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#examples)
+  - [Example 1](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#example-1)
 
 
 
@@ -10,7 +10,7 @@
   - Simply is a function that has a reference ( can access ) a private variable.
   
 
-### Examples:
+### Example 1:
   1.
   ```
   function Person(pName) {
