@@ -1,7 +1,7 @@
 # Closure
 
 ### Table of Contents:
-  - Definition.
+  - [Definition](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#definition).
 
 
 
