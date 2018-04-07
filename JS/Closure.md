@@ -2,7 +2,8 @@
 
 ### Table of Contents:
   - [Definition](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#definition).
-  - [Example 1](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#example-1)
+  - [Example 1](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#example-1).
+  - [Example 2](https://github.com/Islam888/Study-Notes/blob/master/JS/Closure.md#example-2).
 
 
 
