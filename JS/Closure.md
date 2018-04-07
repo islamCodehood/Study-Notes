@@ -11,7 +11,7 @@
   
 
 ### Example 1:
-  1.
+
   ```
   function Person(pName) {
     this.name = pName;
@@ -38,3 +38,22 @@
  const me = new Person('Islam');
   me.getName();//'Islam'
 ```
+
+### Example 2
+
+```
+function counterFunction() {
+    var counter = 0;
+    return function () {return counter += 1;}
+}
+const add = counterFunction();
+add();//1
+add();//2
+add();//3
+```
+The add() refer to the returned anonymous function which has reference to the private counter variable and increment it by 1 each time the add() invoked.
+If you wrote `add;` in console it will return the returned anonymous function.
+```
+add;//ƒ () {return counter += 1;}
+```
+
