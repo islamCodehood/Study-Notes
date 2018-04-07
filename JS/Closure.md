@@ -31,13 +31,14 @@
   Instead we could use a closure to have a reference to this private name variable.
   ```
   function Person(pName) {
-    var name = pName;
-    this.getName = function() {
-      return name;
-      }
+  var name = pName;
+  return function() {
+    return this.name = pName;
     }
- const me = new Person('Islam');
-  me.getName();//'Islam'
+  }
+ const obj = Person('Islam');
+ const me = new obj();
+ me.name;//'Islam'
 ```
 
 ### Example 2
