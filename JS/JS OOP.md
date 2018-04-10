@@ -134,3 +134,15 @@ object;//{name: bird}
 object === object1;//true. Also any change in object1 will make the same change in object.
 object === object2;//false.
 ```
+### Invoke object method
+
+```
+const developer = {
+  sayHello: function () {
+    console.log('Hi there!');
+  }
+};
+developer.sayHello();//Hi there!
+developer['sayHello']();//Hi there!
+```
+
