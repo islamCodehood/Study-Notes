@@ -136,6 +136,8 @@ object === object2;//false.
 ```
 ### Invoke object method
 
+- invoke methods different ways
+
 ```
 const developer = {
   sayHello: function () {
@@ -145,4 +147,18 @@ const developer = {
 developer.sayHello();//Hi there!
 developer['sayHello']();//Hi there!
 ```
+
+- passing arguments into methods
+
+```
+const developer = {
+  name: 'Andrew',
+  favoriteLanguage: function (language) {
+    console.log(`My name is ${this.name} and my favorite programming language is ${language}.`);
+  }
+};
+
+developer.favoriteLanguage('JavaScript');//My name is Andrew and my favorite programming language is JavaScript.
+```
+- Naming properties functions ( rather than using anonymous functions) is valis and is useful for debugging.
 
