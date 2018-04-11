@@ -15,6 +15,7 @@ function sayHi (name, greeting) {
 name = (name !== undefined)? name : 'Islam';
 greeting = (greeting !== undefined)? greeting : 'Hi'
   return `${greeting} ${name}`;}
+  
 sayHi();// Hi Islam
 sayHi('Hazem', 'Hello');//Hello Hazem
 ```
