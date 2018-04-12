@@ -11,7 +11,7 @@
 
 ### Introduction:
 
-ES6 has changed how we write _functions_, adding _default parameters_ and introduced a new way of presenting _classes and subclasses_. All for being more easier syntax.
+ES6 has changed how we write _*functions*_, adding _*default parameters*_ and introduced a new way of presenting _*classes and subclasses*_. All for being more easier syntax.
 
 
 ### Arrow Functions
