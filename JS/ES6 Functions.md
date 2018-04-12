@@ -4,8 +4,8 @@
 - [Introduction](#introduction).
 - [Arrow Functions](#arrow-functions).
 - [Arrow Functions and this key word](#arrow-functions-and-this-key-word).
-- [Default Function Parameter]().
-- [Destructuring with Default Function Parameters]().
+- [Default Function Parameter](#default-function-parameters).
+- [Destructuring with Default Function Parameters](destructuring-with-default-function-parameters).
 - [JS Classes]().
 - [Subclasses with extends, and super]().
 
@@ -135,3 +135,76 @@ dessert.scoops; //1
 ```
     
 Note: If we change the addScoope function to an arrow one the value of this will be the global object again.
+
+
+## Default Function Parameters:
+
+1. Definition: Assigning a default values for function parameters in case no values are assigned when invoking the function.
+2. Examples:
+
+In case of:
+```
+function sayHi (name, greeting) {
+  return `${greeting} ${name}`;}
+  
+sayHi('Islam', 'Hi');//Hi Islam
+sayHu();//Uncaught ReferenceError: sayHu is not defined at ...
+```
+You can write
+```
+function sayHi (name, greeting) {
+name = (name !== undefined)? name : 'Islam';
+greeting = (greeting !== undefined)? greeting : 'Hi'
+  return `${greeting} ${name}`;}
+  
+sayHi();// Hi Islam
+sayHi('Hazem', 'Hello');//Hello Hazem
+```
+How verbose this is! So you can instead write
+```
+function sayHi (name = 'Islam', greeting = 'Hi') {
+  return `${greeting} ${name}`;}
+  
+sayHi();// Hi Islam
+sayHi('Hazem', 'Hello');//Hello Hazem
+sayHi('Hazem');//Hi Hazem
+sayHi(undefined, 'Hello');//Hello Islam
+```
+
+
+## Destructuring with Default Function Parameters:
+
+1. **Destructuring Arrays with Default Function Parameters**
+
+  - Example
+  ```
+  function createGrid([width = 5, height = 5] = []) {
+  return `Generates a ${width} x ${height} grid`;
+}
+createGrid(); // Generates a 5 x 5 grid
+createGrid([]); // Generates a 5 x 5 grid
+createGrid([2]); // Generates a 2 x 5 grid
+createGrid([2, 3]); // Generates a 2 x 3 grid
+createGrid([undefined, 3]); // Generates a 5 x 3 grid
+```
+
+2. **Destructuring Objects with Default Function Parameters**
+
+  - Example:
+  ```
+  function createSundae({scoops = 1, toppings = ['Hot Fudge']} = {}) {
+  const scoopText = scoops === 1 ? 'scoop' : 'scoops';
+  return `Your sundae has ${scoops} ${scoopText} with ${toppings.join(' and ')} toppings.`;
+}
+
+createSundae(); // Your sundae has 1 scoop with Hot Fudge toppings.
+createSundae({}); // Your sundae has 1 scoop with Hot Fudge toppings.
+createSundae({scoops: 2}); // Your sundae has 2 scoops with Hot Fudge toppings.
+createSundae({scoops: 2, toppings: ['Sprinkles']}); // Your sundae has 2 scoops with Sprinkles toppings.
+createSundae({toppings: ['Cookie Dough']}); // Your sundae has 1 scoop with Cookie Dough toppings.
+```
+
+3. **Array defaults vs. object defaults**
+ - Always use Objects defaults over array ones whenever possible because object defaults handle skipped parameter in a better way.
+ - While you will have to set the skipped parameters to `undefined` value in arrays arguments( except the last element in the array) you don't have to do the same for object. This is because arrays are order (position based) while objects are not. 
+ 
