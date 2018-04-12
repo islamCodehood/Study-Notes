@@ -7,7 +7,7 @@
 - [Default Function Parameter](#default-function-parameters).
 - [Destructuring with Default Function Parameters](#destructuring-with-default-function-parameters).
 - [JS Classes](#js-classes).
-- [Subclasses with extends, and super]().
+- [Subclasses with extends, and super](#subclasses-with-extends,-and-super).
 
 ## Introduction:
 
@@ -282,3 +282,12 @@ class Plane {
   }
 }
 ```
+
+
+## Subclasses with extends, and super:
+
+1. `extends`
+  - Definition: used in class declarations or class expressions to create a class which is a child (subclass) of another class (parent class).
+
+2. `super`
+  - Definition: used to access and call functions on an object's parent.
