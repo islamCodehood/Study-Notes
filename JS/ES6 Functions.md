@@ -53,7 +53,9 @@ ES6 has changed how we write _**functions**_, adding _**default parameters**_ an
   - The function body contain one line of code ( which is a returned value).
   - No need to add `return` key word.
   - No :x: curly braces `{}` needed.
-  `const greet = () => `Hello student!`;`
+  ```
+  const greet = () => `Hello student!`;
+  ```
 6. **Block body syntax:**
   - The function body contain more than one line of code.
   - If you want to return a specific value you would have to add `return` key word by yourself.
