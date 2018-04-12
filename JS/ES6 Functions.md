@@ -6,7 +6,7 @@
 - [Arrow Functions and this key word](#arrow-functions-and-this-key-word).
 - [Default Function Parameter](#default-function-parameters).
 - [Destructuring with Default Function Parameters](#destructuring-with-default-function-parameters).
-- [JS Classes]().
+- [JS Classes](#js-classes).
 - [Subclasses with extends, and super]().
 
 ## Introduction:
@@ -208,3 +208,75 @@ createSundae({toppings: ['Cookie Dough']}); // Your sundae has 1 scoop with Cook
  - Always use Objects defaults over array ones whenever possible because object defaults handle skipped parameter in a better way.
  - While you will have to set the skipped parameters to `undefined` value in arrays arguments( except the last element in the array) you don't have to do the same for object. This is because arrays are order (position based) while objects are not. 
  
+ 
+ 
+ ## JS Classes:
+ 
+ 1. Introduction:
+  - JavaScript is not :x: a _class-based language_.
+  - JavaScript uses _functions_ to create objects.
+  - JavaScript links object together by prototypal _inheritance_.
+  - JavaScript Classes are just a way to write a cleaner easier to read code.
+  
+2. ES5 Class -to-> ES6 Class conversion
+
+ES5
+```
+//ES5
+function Plane(numEngines) {
+  this.numEngines = numEngines;
+  this.enginesActive = false;
+}
+
+// methods "inherited" by all instances
+Plane.prototype.startEngines = function () {
+  console.log('starting engines...');
+  this.enginesActive = true;
+};
+
+const richardsPlane = new Plane(1);
+
+const jamesPlane = new Plane(4);
+```
+ES6
+```
+//ES6
+class Plane {
+  constructor(numEngines) {
+    this.numEngines = numEngines;
+    this.enginesActive = false;
+  }
+
+  startEngines() {
+    console.log('starting engines…');
+    this.enginesActive = true;
+  }
+}
+
+const richardsPlane = new Plane(1);
+
+const jamesPlane = new Plane(4);
+```
+
+3. `static` method
+
+- written by adding key word `static` before method.
+- accessed on constructor function directly
+- Example:
+```
+class Plane {
+  constructor(numEngines) {
+    this.numEngines = numEngines;
+    this.enginesActive = false;
+  }
+  static badWeather(planes) {
+    for (plane of planes) {
+      plane.enginesActive = false;
+    }
+  }
+  startEngines() {
+    console.log('starting engines…');
+    this.enginesActive = true;
+  }
+}
+```
