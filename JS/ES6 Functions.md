@@ -261,6 +261,8 @@ const jamesPlane = new Plane(4);
 3. `static` method
 
 - written by adding key word `static` before method.
+- Can be used for "utility classes". When you want an object to be a bag of methods. And for performance reasons when you don't want to reference every object itself.
+- A real life example is `Math.floor()`, `Math.random()`, `Math.ceil()` where `floor()`, `random()`, and `ceil()` are all static methods on Math constructor function.
 - accessed on constructor function directly
 - Example:
 ```
