@@ -5,7 +5,7 @@
 - symbol('description') function can have an optional string description.
 - Description is a way to describe the created symbol. It can not access the symbol or affect its value. That's why to symbols with the same description are not equal.
 - syntax:
-  ```
+  ```javascript
   const bowl = {
   [Symbol('apple')]: { color: 'red', weight: 136.078 },
   [Symbol('banana')]: { color: 'yellow', weight: 183.15 },
