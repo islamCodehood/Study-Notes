@@ -7,7 +7,7 @@
 - [Default Function Parameter](#default-function-parameters).
 - [Destructuring with Default Function Parameters](#destructuring-with-default-function-parameters).
 - [JS Classes](#js-classes).
-- [Subclasses with extends, and super](#subclasses-with-extends,-and-super).
+- [Subclasses with extends, and super](#subclasses-with-extends-and-super).
 
 ## Introduction:
 
