@@ -6,11 +6,12 @@
 - Description is a way to describe the created symbol. It can not access the symbol or affect its value. That's why to symbols with the same description are not equal.
 - syntax:
   ```javascript
+  
   const bowl = {
   [Symbol('apple')]: { color: 'red', weight: 136.078 },
   [Symbol('banana')]: { color: 'yellow', weight: 183.15 },
   [Symbol('orange')]: { color: 'orange', weight: 170.097 },
   [Symbol('banana')]: { color: 'yellow', weight: 176.845 }
-};
-console.log(bowl);//{Symbol(apple): {…}, Symbol(banana): {…}, Symbol(orange): {…}, Symbol(banana): {…}}
+  };
+  console.log(bowl);//{Symbol(apple): {…}, Symbol(banana): {…}, Symbol(orange): {…}, Symbol(banana): {…}}
 ```
