@@ -3,7 +3,7 @@
 ## Table of contents:
 - [Introduction](#introduction).
 - [Arrow Functions](#arrow-functions).
-- [Arrow Functions and this key word](#Arrow-Functions-and-this-key-word).
+- [Arrow Functions and this key word](#arrow-functions-and-this-key-word).
 - [Default Function Parameter]().
 - [Destructuring with Default Function Parameters]().
 - [JS Classes]().
