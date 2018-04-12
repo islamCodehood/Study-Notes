@@ -5,7 +5,7 @@
 - [Arrow Functions](#arrow-functions).
 - [Arrow Functions and this key word](#arrow-functions-and-this-key-word).
 - [Default Function Parameter](#default-function-parameters).
-- [Destructuring with Default Function Parameters](destructuring-with-default-function-parameters).
+- [Destructuring with Default Function Parameters](#destructuring-with-default-function-parameters).
 - [JS Classes]().
 - [Subclasses with extends, and super]().
 
