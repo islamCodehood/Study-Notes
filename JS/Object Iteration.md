@@ -15,3 +15,7 @@
 - So for an object to be iterable ---must contain---> iterable method(define how object will be iterated).
 - Our iterable method here is `[Symbol.iterator]()`
 - `[Symbol.iterator]()` is a zero argument method ---returns---> iterator object (which is an object that conforms to iterator protocol).
+- On iterator object, you can call method `next()`
+- `next()` method is a zero argument method that returns an object with 2 properties:
+    1. `value`:
+    2. `done`: 
