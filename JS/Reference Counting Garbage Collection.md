@@ -9,11 +9,11 @@
 1. [Introduction](#introduction).
 2. [Memory Life Cycle](#memory-life-cycle).
 3. [Garbage Collection](#garbage-collection).
-4. [Reference Counting Garbage Collection](#reference-counting-garbage-collection).
-5. 
+4. [Reference Counting Garbage Collection algorithm](#reference-counting-garbage-collection-algorithm).
+5. [Mark and sweep algorith]
 
 ## Introduction
-
+m
 - Low-level language (eg. C language) have low level memory management primitives like `free()`. ( this is not important to us now but we mention that to say that memory management must be done **explicitly**).
 - Unlike JavaScript, when for example objects are not used any more they are automatically "garbage collected" to free memory.
 - This gives a _**wrong**_ impression to JS developers to not care about memory management.
@@ -48,7 +48,7 @@ Release the allocated memory
 - The algorithms of garbage collection depends on "reference"
 
 
-## Reference Counting Garbage Collection
+## Reference Counting Garbage Collection Algorithm
 
 - Description:
     _This is just an explanation of a garbage collection algorithm presented in_ [MDN-Garbage Collection](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management#Garbage_collection).
@@ -111,3 +111,4 @@ window.onload = function() {
   div.circularReference = div;// the div references itself. It will continue in memory even if it is removed from DOM tree.
   div.lotsOfData = new Array(10000).join('*');//the div carries a lot of data. Memory consumed by this data will never be released.
 };
+```
