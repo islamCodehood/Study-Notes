@@ -1,4 +1,47 @@
-# Reference Counting Garbage Collection
+# Memory management
+
+- Description:
+    _This is just an explanation of a garbage collection algorithm presented in_ [MDN-Garbage Collection](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management#Garbage_collection).
+    
+    
+### Table of contents:
+
+1. [Introduction](#introduction).
+2. [Memory Life Cycle](#memory-life-cycle).
+
+
+## Introduction
+
+- Low-level language (eg. C language) have low level memory management primitives like `free()`. ( this is not important to us now but we mention that to say that memory management must be done **explicitly**).
+- Unlike JavaScript, when for example objects are not used any more they are automatically "garbage collected" to free memory.
+- This gives a _**wrong**_ impression to JS developers to not care about memory management.
+
+
+## Memory Life Cycle
+
+- Regardless of the programming language, memory life cycle is pretty much always the same:
+    1. Allocate the memory you need. (_explicit in low-level languages implicit in high-level languages like JS_)
+    2. Use the allocated memory. (read, write) (_explicit in all languages_)
+    3. Release the allocated memory when it is not needed anymore. (_explicit in low-level languages implicit in high-level languages like JS (GARBAGE COLLECTION)_)
+
+```
+:point_right: Allocate the memory in JS
+```
+ JavaScript does it alongside with declaring values.
+ 
+ ```
+ :point_right: Use the allocated memory
+ ```
+ By reading or writing the value of a variable or an object property or even passing an argument to a function.
+
+```
+ :point_right: Release the allocated memory
+```
+- High-level languages embed a piece of software called "**garbage collector**" whose job is to track memory allocation and use in order to find when a piece of allocated memory is not needed any longer in which case, it will automatically _free it_. 
+- This process is an approximation (knowing whether some piece of memory is needed is undecidable. This means it can not be solved by an algorithm).
+
+
+## Reference Counting Garbage Collection
 
 - Description:
     _This is just an explanation of a garbage collection algorithm presented in_ [MDN-Garbage Collection](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management#Garbage_collection).
