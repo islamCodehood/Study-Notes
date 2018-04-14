@@ -10,10 +10,10 @@
 2. [Memory Life Cycle](#memory-life-cycle).
 3. [Garbage Collection](#garbage-collection).
 4. [Reference Counting Garbage Collection algorithm](#reference-counting-garbage-collection-algorithm).
-5. [Mark and sweep algorith]
+5. [Mark and sweep algorithm](#mark-and-sweep-algorithm).
 
 ## Introduction
-m
+
 - Low-level language (eg. C language) have low level memory management primitives like `free()`. ( this is not important to us now but we mention that to say that memory management must be done **explicitly**).
 - Unlike JavaScript, when for example objects are not used any more they are automatically "garbage collected" to free memory.
 - This gives a _**wrong**_ impression to JS developers to not care about memory management.
