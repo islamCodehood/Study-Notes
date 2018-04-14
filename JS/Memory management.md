@@ -112,3 +112,21 @@ window.onload = function() {
   div.lotsOfData = new Array(10000).join('*');//the div carries a lot of data. Memory consumed by this data will never be released.
 };
 ```
+
+
+## Mark and sweep algorithm
+
+- It reduces the definition of "an object is not needed anymore so Garbage collect it" to "an object is not reachable so Garbage collect it". 
+- This algorithm starts from the root object ( global object) and find all objects that are referenced from these roots, then all objects referenced from these, etc. Then the unreachable objects will be garbage collected. 
+- This algorithm is better than the previous one since "an object has zero references" leads to this object being unreachable. The opposite is not true as in this example:
+```javascript
+function f() {
+  var o = {};
+  var o2 = {};
+  o.a = o2; // o references o2
+  o2.a = o; // o2 references o
+  return 'hi';
+}
+
+f();
+```
