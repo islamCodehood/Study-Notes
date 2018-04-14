@@ -25,17 +25,17 @@
     3. Release the allocated memory when it is not needed anymore. (_explicit in low-level languages implicit in high-level languages like JS (GARBAGE COLLECTION)_)
 
 ```
-:point_right: Allocate the memory in JS
+Allocate the memory in JS
 ```
  JavaScript does it alongside with declaring values.
  
  ```
- :point_right: Use the allocated memory
+Use the allocated memory
  ```
  By reading or writing the value of a variable or an object property or even passing an argument to a function.
 
 ```
- :point_right: Release the allocated memory
+Release the allocated memory
 ```
 - High-level languages embed a piece of software called "**garbage collector**" whose job is to track memory allocation and use in order to find when a piece of allocated memory is not needed any longer in which case, it will automatically _free it_. 
 - This process is an approximation (knowing whether some piece of memory is needed is undecidable. This means it can not be solved by an algorithm).
