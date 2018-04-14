@@ -8,7 +8,9 @@
 
 1. [Introduction](#introduction).
 2. [Memory Life Cycle](#memory-life-cycle).
-
+3. [Garbage Collection](#garbage-collection).
+4. [Reference Counting Garbage Collection](#reference-counting-garbage-collection).
+5. 
 
 ## Introduction
 
@@ -27,18 +29,23 @@
 ```
 Allocate the memory in JS
 ```
- JavaScript does it alongside with declaring values.
+ ===> JavaScript does it alongside with declaring values.
  
  ```
 Use the allocated memory
  ```
- By reading or writing the value of a variable or an object property or even passing an argument to a function.
+ ===> By reading or writing the value of a variable or an object property or even passing an argument to a function.
 
 ```
 Release the allocated memory
 ```
+===>
 - High-level languages embed a piece of software called "**garbage collector**" whose job is to track memory allocation and use in order to find when a piece of allocated memory is not needed any longer in which case, it will automatically _free it_. 
 - This process is an approximation (knowing whether some piece of memory is needed is undecidable. This means it can not be solved by an algorithm).
+
+## Garbage Collection
+
+- The algorithms of garbage collection depends on "reference"
 
 
 ## Reference Counting Garbage Collection
@@ -96,3 +103,11 @@ oa = null;
 Now the second object loses its reference `oa`. So it can also be garbage collected.
 
            
+- Another example: _trapped reference_ Or _circularReference_
+```javascript
+var div;
+window.onload = function() {
+  div = document.getElementById('myDivElement');
+  div.circularReference = div;// the div references itself. It will continue in memory even if it is removed from DOM tree.
+  div.lotsOfData = new Array(10000).join('*');//the div carries a lot of data. Memory consumed by this data will never be released.
+};
