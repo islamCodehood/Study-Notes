@@ -1,6 +1,6 @@
 # JS OOP 
 
-JS Object-Oriented Programing at Udacity. A part of Udacity Fri=ont end Nanodegree courses.
+JS Object-Oriented Programing at Udacity. A part of Udacity Front end Nanodegree courses.
 
 Course lessons:
 
