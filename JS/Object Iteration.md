@@ -11,7 +11,7 @@
 
 ### Iterable Protocol
 
-- **Definition**: define and customize the iteration behavior of objects (which are not iterables). This means that now we the flexibility of defining and customizing this iteration behavior for objects.
+- **Definition**: define and customize the iteration behavior of objects (which are not iterables). This means that now we have the flexibility of defining and customizing this iteration behavior for objects.
 - Using `[Symbol.iterator]()`
 
 
@@ -23,7 +23,7 @@
 ----------------------------
 
 
-- So for an object to be iterable ---must contain---> iterator method(define how object will be iterated).
+- So for an object to be iterable ---must implement---> iterator method(define how object will be iterated).
 - Our iterator method here is `[Symbol.iterator]()`
 - `[Symbol.iterator]()` is a zero argument method ---returns---> iterator object (which is an object that conforms to iterator protocol).
 - On iterator object, you can call method `next()`
