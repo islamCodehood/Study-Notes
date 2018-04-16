@@ -13,4 +13,5 @@
   [Symbol('orange')]: { color: 'orange', weight: 170.097 },
   [Symbol('banana')]: { color: 'yellow', weight: 176.845 }
   };
-  console.log(bowl);//{Symbol(apple): {…}, Symbol(banana): {…}, Symbol(orange): {…}, Symbol(banana): {…}}```
+  console.log(bowl);//{Symbol(apple): {…}, Symbol(banana): {…}, Symbol(orange): {…}, Symbol(banana): {…}}
+  
