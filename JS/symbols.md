@@ -2,7 +2,7 @@
 - A new JS primitive data type.(number, string, boolean, null, undefined, symbol)
 - is "unique, and immutable data type that is used to identify object properties".
 - created by invoking Symbol() function.
-- Symbol('description') function can have an optional string description.
+- Symbol('description') function can have an optional string description that is used for _debugging_.
 - Description is a way to describe the created symbol. It can not access the symbol or affect its value. That's why the symbols with the same description are not equal.
 - syntax:
   ```javascript
