@@ -6,6 +6,7 @@
   3. [Loading Images Code](#loading-images-code).
   4. [Drawing Rectangle](#drawing-rectangle).
   5. [Clear Rectangle](#clear-rectangle).
+  6. [Paths](#paths).
   
   ## Description:
   - A Udacity HTML5 canvas course. [Here is its link](https://classroom.udacity.com/courses/ud292).
@@ -104,6 +105,10 @@
   ```
   
  
+  
+  ## Paths:
+  
+  - This [link](http://www.w3.org/TR/2dcontext/#building-paths) explains it in details.
   
   
   
