@@ -74,7 +74,7 @@
   
   - Example:
   
-  ```html
+  ```javascript
 <canvas id="canvas" width="300" height="350"></canvas>
 <script>
   const canvas = document.getElementById('canvas');
