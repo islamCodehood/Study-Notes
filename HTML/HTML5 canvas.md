@@ -3,7 +3,7 @@
 - Contents:
   1. [Description](#description).
   2. [Create a canvas](#create-a-canvas).
-  3. [Loading Images Code](#loading-image-code).
+  3. [Loading Images Code](#loading-images-code).
   4. [Drawing Rectangular](#drawing-rectangular).
   
   
