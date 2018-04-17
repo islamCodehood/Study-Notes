@@ -72,5 +72,18 @@
   `sHeight`: The height of the clipped image.
   
   
+  - Example:
   
+  ```html
+<canvas id="canvas" width="300" height="350"></canvas>
+<script>
+  const canvas = document.getElementById('canvas');
+  const ctx = canvas.getContext('2d');
+  const image = new Image();
+  image.src = '/*imageUrl*/';
+  image.onload = function() {
+    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);//the width and height of the image will be the canvas's width and height.
+</script>  
+```
+
   
