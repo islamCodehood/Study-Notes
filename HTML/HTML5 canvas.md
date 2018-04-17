@@ -4,8 +4,8 @@
   1. [Description](#description).
   2. [Create a canvas](#create-a-canvas).
   3. [Loading Images Code](#loading-images-code).
-  4. [Drawing Rectangular](#drawing-rectangular).
-  
+  4. [Drawing Rectangle](#drawing-rectangle).
+  5. [Clear Rectangle](#clear-rectangle).
   
   ## Description:
   - A Udacity HTML5 canvas course. [Here is its link](https://classroom.udacity.com/courses/ud292).
@@ -85,7 +85,7 @@
 </script>  
 ```
   
-  ## Drawing Rectangular:
+  ## Drawing Rectangle:
   
   - Syntax:
   ```javascript
@@ -94,5 +94,16 @@
   ```javascript
   ctx.strokeRect(x,y,width,height);//draws an empty rectangular.
   ```
+  
+  
+  ## Clear Rectangle:
+  
+  - Synatx:
+  ```javascript
+  ctx.clearRect(x, y, width, height);
+  ```
+  
+ 
+  
   
   
