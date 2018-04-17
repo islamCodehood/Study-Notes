@@ -73,8 +73,7 @@
   
   
   - Example:
-  
-  ```javascript
+```html
 <canvas id="canvas" width="300" height="350"></canvas>
 <script>
   const canvas = document.getElementById('canvas');
@@ -85,5 +84,4 @@
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height);//the width and height of the image will be the canvas's width and height.
 </script>  
 ```
-
   
