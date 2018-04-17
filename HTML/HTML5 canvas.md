@@ -4,8 +4,7 @@
   1. [Description](#description).
   2. [Create a canvas](#create-a-canvas).
   3. [Loading Images Code](#loading-image-code).
-  4. [Save an image](#save-an-image).
-  5. [Drawing Rectangular](#drawing-rectangular).
+  4. [Drawing Rectangular](#drawing-rectangular).
   
   
   ## Description:
@@ -82,6 +81,18 @@
   image.src = '/*imageUrl*/';
   image.onload = function() {
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height);//the width and height of the image will be the canvas's width and height.
+  }
 </script>  
 ```
+  
+  ## Drawing Rectangular:
+  
+  - Syntax:
+  ```javascript
+  ctx.fillRect(x,y,width,height);//draws a colored rectangular.
+  ```
+  ```javascript
+  ctx.strokeRect(x,y,width,height);//draws an empty rectangular.
+  ```
+  
   
