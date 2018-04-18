@@ -112,3 +112,22 @@
   
   
   
+ ## save() & restore():
+ 
+ - `save()`:
+  [o] saves the most current state to be called after with `restore()`
+  [o] If called in the before a current state it saves the default on. An example from MDN(https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/save#Examples).
+  [o] Syntax:
+  ```javascript
+  ctx.save();//called after the state was declared.
+  ```
+  
+ - `restore()`:
+  [o] restores the most recently saved canvas state.
+  [o] Syntax:
+  ```javascript
+  ctx.restore();//called before drawing the object we want to restore the state on.
+  ```
+  
+  
+  
