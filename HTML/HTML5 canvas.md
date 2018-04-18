@@ -7,6 +7,7 @@
   4. [Drawing Rectangle](#drawing-rectangle).
   5. [Clear Rectangle](#clear-rectangle).
   6. [Paths](#paths).
+  7. [save() & restore()](#save--restore).
   
   ## Description:
   - A Udacity HTML5 canvas course. [Here is its link](https://classroom.udacity.com/courses/ud292).
