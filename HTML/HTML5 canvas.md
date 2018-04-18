@@ -166,7 +166,7 @@
   
   - You can combine both `strokeText` and `fillText`
   
-  -Here is the [meme-maker] exercise app by udacity.
+  -Here is the [meme-maker](https://github.com/Islam888/Study-Notes/blob/master/HTML/meme-maker.html) exercise app by udacity.
   
   
   
