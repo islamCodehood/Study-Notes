@@ -8,6 +8,10 @@
   5. [Clear Rectangle](#clear-rectangle).
   6. [Paths](#paths).
   7. [save() & restore()](#save--restore).
+  8. [Moving Objects in a Canvas](#moving-objects-in-a-canvas).
+  9. [Color Objects](#color-objects).
+  10. [Draw Text](#draw-text).
+  
   
   ## Description:
   - A Udacity HTML5 canvas course. [Here is its link](https://classroom.udacity.com/courses/ud292).
@@ -129,6 +133,40 @@
   ```javascript
   ctx.restore();//called before drawing the object we want to restore the state on.
   ```
+  
+  
+  ## Moving Objects in a Canvas:
+  
+  `ctx.scale(x, y);`
+  
+  `ctx.translate(x, y);`
+  
+  `ctx.rotate(angleRadians);`: anglaeRadian = degrees * (Math.PI/180)
+  
+  - Order of operations: 1. scale
+                         2. rotate
+                         3. translate
+          
+          
+  ## Color Objects:
+  
+  `ctx.strokeStyle = "someColor";//color can be a named color (140 named color in HTML), or a hexadecimal color.`
+  
+  `ctx.fillStyle = "someColor";`
+  
+  `ctx.fill();
+  //can be used for example if we draw a rectangle by rect() instead of fillRect(), or to color path with the fillStyle color specified.`
+  
+  
+  ## Draw Text:
+  
+  `ctx.strokeText(x, y, [optional max-width]);`
+  
+  `ctx.fillText(x, y, [optional max-width]);`
+  
+  - You can combine both `strokeText` and `fillText`
+  
+  -Here is the [meme-maker] exercise app by udacity.
   
   
   
