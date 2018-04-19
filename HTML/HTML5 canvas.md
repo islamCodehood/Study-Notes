@@ -11,7 +11,8 @@
   8. [Moving Objects in a Canvas](#moving-objects-in-a-canvas).
   9. [Color Objects](#color-objects).
   10. [Draw Text](#draw-text).
-  
+  11. [Grayscale Conversion Algorithms](#grayscale-aconversion-algorithms).
+  12. [Resources](#resouces).
   
   ## Description:
   - A Udacity HTML5 canvas course. [Here is its link](https://classroom.udacity.com/courses/ud292).
@@ -166,7 +167,28 @@
   
   - You can combine both `strokeText` and `fillText`
   
-  -Here is the [meme-maker](https://github.com/Islam888/Study-Notes/blob/master/HTML/meme-maker.html) exercise app by udacity.
+  - Here is the [meme-maker](https://github.com/Islam888/Study-Notes/blob/master/HTML/meme-maker.html) exercise app by udacity.
   
   
   
+  ## Grayscale Conversion Algorithms:
+  
+  - [Here is the link to the article](http://www.tannerhelland.com/3643/grayscale-image-algorithm-vb6/).
+  
+  
+  ## Resources:
+  
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas
+  - https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
+  - https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage
+  - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+  - https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL
+  - https://www.w3schools.com/tags/canvas_drawimage.asp
+  - http://diveintohtml5.info/canvas.html#text
+  - http://html5gamedevelopment.com/2013-12-developing-html5-games-1hr-video-presentation/
+  - https://www.udemy.com/how-to-program-games/
+  - https://www.udemy.com/courses/search/?q=html%20canvas&src=ukw&sort=most-reviewed
+  - [A good youtube course](https://www.youtube.com/watch?v=EO6OkltgudE).
+  
+  
+ 
