@@ -160,5 +160,5 @@ const developer = {
 
 developer.favoriteLanguage('JavaScript');//My name is Andrew and my favorite programming language is JavaScript.
 ```
-- Naming properties functions ( rather than using anonymous functions) is valis and is useful for debugging.
+- Naming properties functions ( rather than using anonymous functions) is valid and is useful for debugging.
 
