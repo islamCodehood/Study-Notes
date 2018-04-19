@@ -4,7 +4,7 @@ JS Object-Oriented Programing at Udacity. A part of Udacity Front end Nanodegree
 
 Course lessons:
 
-1. [Object In Depth](#objects-in-depth).
+1. [Objects In Depth](#objects-in-depth).
 2. [Functions at runtime](#functions-at-runtime).
 3. [Classes and Objects](#classes-and-objects).
 
