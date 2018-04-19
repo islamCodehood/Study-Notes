@@ -188,7 +188,7 @@
   - http://html5gamedevelopment.com/2013-12-developing-html5-games-1hr-video-presentation/
   - https://www.udemy.com/how-to-program-games/
   - https://www.udemy.com/courses/search/?q=html%20canvas&src=ukw&sort=most-reviewed
-  - [A good youtube course](https://www.youtube.com/watch?v=EO6OkltgudE).
+  - [A good youtube course](https://www.youtube.com/watch?v=EO6OkltgudE&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL).
   
   
  
