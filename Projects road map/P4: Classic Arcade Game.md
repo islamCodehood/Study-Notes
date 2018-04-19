@@ -1,5 +1,5 @@
 ### First Steps:
-  1. Take [HTML5 Canvas course](https://classroom.udacity.com/courses/ud292).:white_check_mark:
+  1. Take [HTML5 Canvas course](https://classroom.udacity.com/courses/ud292).:heavy_check_mark:
   2. Revise OOP course.
   3. Read project instructions carefully ==> Take notes.
   4. Read project rubric carefully ==> Take notes.
