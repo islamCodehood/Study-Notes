@@ -30,3 +30,42 @@ foreach(banana b in bunch) {
 - Exceptions:
   1. Code examples used to teach a concept or new programming language.
   2. Programming languages that aren’t human readable (Assembly, Perl).
+
+
+2. Comments are not an art project
+```
+  /*
+   _     _      _     _      _     _      _     _      _     _      _     _
+  (c).-.(c)    (c).-.(c)    (c).-.(c)    (c).-.(c)    (c).-.(c)    (c).-.(c)
+   / ._. \      / ._. \      / ._. \      / ._. \      / ._. \      / ._. \
+ __\( Y )/__  __\( Y )/__  __\( Y )/__  __\( Y )/__  __\( Y )/__  __\( Y )/__
+(_.-/'-'\-._)(_.-/'-'\-._)(_.-/'-'\-._)(_.-/'-'\-._)(_.-/'-'\-._)(_.-/'-'\-._)
+   || M ||      || O ||      || N ||      || K ||      || E ||      || Y ||
+ _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._
+(.-./`-'\.-.)(.-./`-'\.-.)(.-./`-'\.-.)(.-./`-'\.-.)(.-./`-'\.-.)(.-./`-'\.-.)
+ `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'
+ 
+                 -It's Monkey Business Time! (Version 1.5)
+*/
+```
+```
+1
+2
+3
+4
+5
+6
+7
++------------------------------------------------------------+
+ | Module Name: classMonkey                                   |
+ | Module Purpose: emulate a monkey                           |
+ | Inputs: Bananas                                              |
+ | Outputs: Grunts                                            |
+ | Throws: Poop                                               |
+ +------------------------------------------------------------+
+ ```
+ 
+ - The first example is very silly to do in your comments and you are not do silly things, are you? 
+ - The second example will get developers tired while they are maintaing your code just to try to fix the unsymmetric border. Because they like consistency and every other method in the project has one.
+ 
+ 
