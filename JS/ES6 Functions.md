@@ -150,7 +150,7 @@ function sayHi (name, greeting) {
   return `${greeting} ${name}`;}
   
 sayHi('Islam', 'Hi');//Hi Islam
-sayHu();//Uncaught ReferenceError: sayHu is not defined at ...
+sayHi();//Uncaught ReferenceError: sayHu is not defined at ...
 ```
 You can write
 ```
