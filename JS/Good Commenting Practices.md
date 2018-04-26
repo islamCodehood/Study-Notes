@@ -15,7 +15,7 @@
 
 ## The 5 tips:
 
-1. Comments are not subtitles
+### 1. Comments are not subtitles
 
 - You are writting comments for both the future you, and others programmers who would be building over your code or maintain it.
 - So no need to write every simple detail. As not far from now you will read code as your native language.
@@ -32,7 +32,7 @@ foreach(banana b in bunch) {
   2. Programming languages that aren’t human readable (Assembly, Perl).
 
 
-2. Comments are not an art project
+### 2. Comments are not an art project
 ```
   /*
    _     _      _     _      _     _      _     _      _     _      _     _
@@ -69,3 +69,30 @@ foreach(banana b in bunch) {
  - The second example will get developers tired while they are maintaing your code just to try to fix the unsymmetric border. Because they like consistency and every other method in the project has one.
  
  
+ ### 3. Header Blocks
+ 
+ - They are enablers for badly named objects/methods. Just to think that he reader will understand what the object/method do after reading the header, excuse you not to put extra work to find a good descriptive names.
+ 
+- They never get updated. And also rarely get read. So why wasting your time with something won't help.
+
+
+### 4. Comments are not source control
+
+_I am trying to understand this part. If anyone could contribute, it is welcomed._
+
+
+### 5. Comments are a code smell
+
+- "Things generally need signs because their affordances have failed." This means that "**when you add a comment you are admitting that you have written code that doesn’t communicate its purpose well.**".
+- Whenever you think, “This code needs a comment” follow that thought with, “How could I modify the code so its purpose is obvious?”
+Talk with your code, not your comments.
+- One of the ways to do so is to Use meaningful identifiers (even if they are single use).
+```
+// Before
+ // Calculate monkey's arm length
+ // using its height and the magic monkey arm ratio
+ double length = h * 1.845; //magic numbers are EVIL!
+ 
+// After - No comment required
+double armLength = height * MONKEY_ARM_HEIGHT_RATIO;
+```
