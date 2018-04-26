@@ -4,8 +4,11 @@
 
 - [Source](#source).
 - [The 5 tips](#the-5-tips).
-  1. [Comments are not subtitles](#comments-are-not-subtitles).
-  2. 
+  1. [Comments are not subtitles](#1-comments-are-not-subtitles).
+  2. [Comments are not an art project](#2-comments-are-not-an-art-project).
+  3. [Header Blocks](#3-header-blocks).
+  4. [Comments are not source control](#4-comments-are-not-source-control).
+  5. [Comments are a code smell](#5-comments-are-a-code-smell).
 
 
 ## Source:
@@ -49,13 +52,6 @@ foreach(banana b in bunch) {
 */
 ```
 ```
-1
-2
-3
-4
-5
-6
-7
 +------------------------------------------------------------+
  | Module Name: classMonkey                                   |
  | Module Purpose: emulate a monkey                           |
