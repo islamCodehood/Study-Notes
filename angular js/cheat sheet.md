@@ -8,7 +8,7 @@ Then
 `$ yo angular udaciMeals`
 
 Then
-```
+```,.
 $ npm install
 $ npm install -g bower
 $ bower install
@@ -16,3 +16,10 @@ $ npm install -g grunt-cli
 $ grunt serve
 ```
 
+To create a controller
+
+`$ yo angular:controller <name>`
+
+To create a view
+
+`$ yo angular:view <name>`
