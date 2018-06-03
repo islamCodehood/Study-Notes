@@ -23,3 +23,11 @@ To create a controller
 To create a view
 
 `$ yo angular:view <name>`
+
+To create a service
+
+`$ yo angular:service <name>`
+
+To install ui-router
+
+`$ yo install -S angular-ui-router
