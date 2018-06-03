@@ -30,4 +30,4 @@ To create a service
 
 To install ui-router
 
-`$ yo install -S angular-ui-router
+`$ yo install -S angular-ui-router`
