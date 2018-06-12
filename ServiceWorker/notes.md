@@ -1,11 +1,13 @@
-- ```javascript 
+```javascript 
 self.skipWaiting()
 ```
-- ```javascript 
+
+```javascript 
 reg.installing.postMessage({...});
 ```
-- ```javascript
+
+```javascript
 self.addEventListener('message', function(event) {
     event.data;
   });
-  ```
+```
