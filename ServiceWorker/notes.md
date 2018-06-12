@@ -11,3 +11,9 @@ self.addEventListener('message', function(event) {
     event.data;
   });
 ```
+
+```javascript
+navigator.serviceWorker.addEventListener('controllerchange', function() {
+    //fires when service worker changes.
+   });
+```
